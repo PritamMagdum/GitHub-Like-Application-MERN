@@ -1,0 +1,20 @@
+{
+  "name": "github-like-app",
+  "version": "1.0.0",
+  "description": "this website is help to understand the GitHub API and Backend Functionality",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Pritam Magdum",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  }
+}
