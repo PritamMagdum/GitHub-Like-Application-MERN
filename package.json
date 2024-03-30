@@ -1,10 +1,11 @@
 {
   "name": "github-like-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "this website is help to understand the GitHub API and Backend Functionality",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon backend/server.js"
   },
   "keywords": [
     "github"
@@ -15,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mongoose": "^8.2.4"
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
   }
 }
