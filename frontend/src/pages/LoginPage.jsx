@@ -20,7 +20,7 @@ const LoginPage = () => {
             <FaGithub className="w-5 h-5" />
             Login with Github
           </button>
-          <p className="text-sm font-light text-gray-500">
+          <p className="text-sm font-light text-gray-200">
             {"Don't"} have an account?{" "}
             <Link
               to="/signup"
@@ -29,6 +29,16 @@ const LoginPage = () => {
               Sign Up
             </Link>
           </p>
+          <div className="developer-section text-white text-center">
+            Developer -{" "}
+            <a
+              href="https://www.linkedin.com/in/pritam-magdum-63b242221/"
+              target="_blank"
+              className="developer bg-white text-black font-medium hover:bg-gray-500 py-0.5 px-1 rounded-sm hover:text-white"
+            >
+              Pritam Magdum
+            </a>
+          </div>
         </div>
       </div>
     </div>

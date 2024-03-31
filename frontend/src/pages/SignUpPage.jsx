@@ -26,7 +26,7 @@ const SignUpPage = () => {
               <FaUnlockAlt className="w-4 h-4 inline mx-2" />
             </span>
           </p>
-          <p className="text-sm font-light text-gray-500">
+          <p className="text-sm font-light text-gray-200">
             Already have an account?{" "}
             <Link
               to="/login"
@@ -35,6 +35,16 @@ const SignUpPage = () => {
               Login
             </Link>
           </p>
+          <div className="developer-section text-white text-center">
+            Developer -{" "}
+            <a
+              href="https://www.linkedin.com/in/pritam-magdum-63b242221/"
+              target="_blank"
+              className="developer bg-white text-black font-medium hover:bg-gray-500 py-0.5 px-1 rounded-sm hover:text-white"
+            >
+              Pritam Magdum
+            </a>
+          </div>
         </div>
       </div>
     </div>
